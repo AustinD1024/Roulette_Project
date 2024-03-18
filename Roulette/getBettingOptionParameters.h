@@ -5,6 +5,6 @@
 #include <string>
 
 // Declaration of randomNumber function
-std::tuple<std::vector<int>, std::string, int> getBettingNumbers(int option);
+std::tuple<std::vector<int>, std::string, int> getBettingOptionParameters(int option);
 
 #endif

@@ -2,7 +2,7 @@
 #include <vector>
 #include <tuple>
 
-std::tuple<std::vector<int>, std::string, int> getBettingNumbers(int option)
+std::tuple<std::vector<int>, std::string, int> getBettingOptionParameters(int option)
 {
 	std::string betName;
 	int PayoutOdds;

@@ -1,14 +1,3 @@
 ﻿  main.cpp
-C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette Project\Roulette\Bet_Check.h(9,26): error C2504: 'Bet': base class undefined
-  (compiling source file 'main.cpp')
-  
-C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette Project\Roulette\Bet_Check.h(19,10): error C3668: 'Bet_Check::isWinning': method with override specifier 'override' did not override any base class methods
-  (compiling source file 'main.cpp')
-  
-C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette Project\Roulette\Bet_Check.h(28,9): error C3668: 'Bet_Check::payout': method with override specifier 'override' did not override any base class methods
-  (compiling source file 'main.cpp')
-  
-C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette Project\Roulette\Bet_Check.h(32,17): error C3668: 'Bet_Check::getName': method with override specifier 'override' did not override any base class methods
-  (compiling source file 'main.cpp')
-  
-C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette Project\Roulette\main.cpp(16,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette\main.cpp(16,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Roulette.vcxproj -> C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette\x64\Debug\Roulette.exe

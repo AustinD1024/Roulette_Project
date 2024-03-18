@@ -28,6 +28,8 @@ int BettingOptions()
         // Get user input
         std::cin >> option;
 
+        std::cout << "\n\n";
+
         // Check if input is valid
         if (std::cin.fail() || option < 1 || option > 10) {
             std::cout << "Invalid input. Please enter a number between 1 and 10." << std::endl;

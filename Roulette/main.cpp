@@ -5,7 +5,7 @@
 #include <string>
 #include <limits> // For std::numeric_limits
 #include "BettingOptions.h"
-//#include "Bet.h"
+#include "Bet.h"
 #include "Bet_Check.h"
 #include "randomNumber.h"
 #include "getBettingOptionParameters.h"
@@ -41,7 +41,7 @@ int main() {
         int option = BettingOptions(); // Call betting options function
 
         // Get betting option parameters
-        auto bettingData = getBettingNumbers(option);
+        auto bettingData = getBettingOptionParameters(option);
         std::vector<int> chosenNumbers = std::get<0>(bettingData);
         std::string betName = std::get<1>(bettingData);
         int payoutOdds = std::get<2>(bettingData);
@@ -52,7 +52,8 @@ int main() {
         // Spin the wheel and determine the outcome
         int winningNumber = randomNumber(1, 36);
 
-        std::cout << "The wheel spins... " << winningNumber << "!" << std::endl;
+        std::cout << std::endl;
+        std::cout << "The wheel spins... " << winningNumber << "!\n\n";
 
         // Determine if the player wins or loses
         if (betCheck.isWinning(winningNumber)) {
@@ -60,12 +61,12 @@ int main() {
             balance += betCheck.payout(betAmount);
         }
         else {
-            std::cout << "Sorry, you lose $" << betAmount << " with " << betCheck.getName() << std::endl;
+            std::cout << "Sorry, you lose $" << betAmount << " with " << betCheck.getName() << std::endl << std::endl;;
             balance -= betAmount;
         }
 
         // Display the updated balance
-        std::cout << "Your balance is now $" << balance << std::endl;
+        std::cout << "Your balance is now $" << balance << std::endl << std::endl;
     }
 
     return 0;
