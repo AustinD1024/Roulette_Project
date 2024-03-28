@@ -1,0 +1,10 @@
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\ROULETTE_PROJECT\IMAGEDISPLAYATTEMPT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/Roulette_Project/ImageDisplayAttempt" "-BC:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/Roulette_Project/ImageDisplayAttempt/build" --check-stamp-file "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/Roulette_Project/ImageDisplayAttempt/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

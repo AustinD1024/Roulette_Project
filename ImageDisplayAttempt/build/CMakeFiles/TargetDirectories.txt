@@ -1,0 +1,3 @@
+C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/Roulette_Project/ImageDisplayAttempt/build/CMakeFiles/SDL2Test.dir
+C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/Roulette_Project/ImageDisplayAttempt/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/Roulette_Project/ImageDisplayAttempt/build/CMakeFiles/ZERO_CHECK.dir

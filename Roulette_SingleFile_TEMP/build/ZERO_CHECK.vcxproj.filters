@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette_SingleFile_TEMP\build\CMakeFiles\3d3742663822f3290286f6143c7be9e7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CFA4E0BC-5588-3DEA-8AA3-C39548B198B1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

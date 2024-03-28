@@ -13,3 +13,13 @@ Initial Balance: $1500
 Final Balance: $0
 Amount Won/Lost: $-1500
 
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $1600
+Amount Won/Lost: $100
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $400
+Amount Won/Lost: $-1100
+
