@@ -18,6 +18,10 @@ void Image(int argc, char** argv)
 	SDL_Renderer* renderer = SDL_CreateRenderer( window, -1, 0 );
 	//SDL_Surface* image = SDL_LoadBMP( "../resources/Roulette_Wheel_Image.bmp" );  //this depends on where you run the binary file
 	SDL_Surface* image = SDL_LoadBMP("Roulette_Wheel_Image.bmp");
+	if (!image)
+	{
+		image = SDL_LoadBMP("../resources/Roulette_Wheel_Image.bmp");
+	}
 	SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, image);
 
 	while (!quit) {

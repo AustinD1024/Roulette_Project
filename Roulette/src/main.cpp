@@ -12,7 +12,7 @@ int initialBalance = 1500;
 
 std::atomic<bool> quit(false); //For Wheel Image
 
-
+//Main Function
 int main(int argc, char** argv) {
 
 

@@ -1,10 +1,2 @@
-﻿  Building Custom Rule C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/Roulette_Project/Roulette/CMakeLists.txt
-  main.cpp
-  Image.cpp
-  BettingOptions.cpp
-  getBettingOptionParameters.cpp
-  initializePlayerData.cpp
-  randomNumber.cpp
-  writePlayerDataToFile.cpp
-  Generating Code...
+﻿  Image.cpp
   Roulette.vcxproj -> C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette\build\bin\Roulette.exe
