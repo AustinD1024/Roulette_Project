@@ -1,3 +1,0 @@
-﻿  main.cpp
-C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette\main.cpp(16,25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Roulette.vcxproj -> C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette\x64\Debug\Roulette.exe

@@ -1,0 +1,10 @@
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\ROULETTE_PROJECT\ROULETTE\BUILD\CMAKEFILES\4EB0FC5E767BD9F4CADDCFAAA2F1F802\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/Roulette_Project/Roulette" "-BC:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/Roulette_Project/Roulette/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/Roulette_Project/Roulette/build/Roulette.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -6,4 +6,3 @@ using namespace std;
 
 void Image(int argc, char** argv);
 
-

@@ -1,2 +1,7 @@
-﻿  Image.cpp
+﻿  Building Custom Rule C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/Roulette_Project/Roulette_SingleFile_TEMP/CMakeLists.txt
+  main.cpp
+C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette_SingleFile_TEMP\src\main.cpp(641,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Image.cpp
+  Generating Code...
+C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette_SingleFile_TEMP\src\main.cpp(614): warning C4715: 'getBettingOptionParameters': not all control paths return a value
   Roulette.vcxproj -> C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette_SingleFile_TEMP\build\bin\Roulette.exe

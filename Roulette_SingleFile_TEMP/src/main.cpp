@@ -11,6 +11,7 @@
 #include <thread>
 #include <mutex>
 
+
 // Global variable to signal when the image display is finished
 bool imageDisplayed = false;
 std::mutex mtx; // Mutex for synchronization
@@ -623,13 +624,17 @@ int randomNumber(int min, int max) {
 
 std::atomic<bool> quit(false); //For Wheel Image
 
+
 int main(int argc, char**argv) {
 
 
 	// Launch a separate thread for image display
 	//bool quitFlag = false;
 	//bool* quit = &quitFlag;
+	//std::vector<std::string> imageFiles = { "Roulette_Wheel_Image.bmp", "Roulette_Betting_Board.bmp"};
+	//Image(argc, argv, imageFiles);
 	std::thread imageThread(Image, argc, argv);
+	//std::thread imageThread2(Image2, argc, argv);
 
 
 	// Seed the random number generator
@@ -722,6 +727,7 @@ int main(int argc, char**argv) {
 	//quit = true;
 
 	imageThread.join();
+	//imageThread2.join();
 
 	return 0;
 }
