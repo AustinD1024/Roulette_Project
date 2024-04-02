@@ -1,5 +1,6 @@
 #include "Functions.h"
 
+//Tuple Container
 std::tuple<std::vector<int>, std::string, int> getBettingOptionParameters(int option)
 {
 	std::string betName;

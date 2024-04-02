@@ -1,17 +1,42 @@
 Player Name: Austin
 Initial Balance: $1500
-Final Balance: $1490
-Amount Won/Lost: $-10
+Final Balance: $500
+Amount Won/Lost: $-1000
 
 Player Name: Austin
 Initial Balance: $1500
-Final Balance: $1400
-Amount Won/Lost: $-100
+Final Balance: $201
+Amount Won/Lost: $-1299
 
 Player Name: Austin
 Initial Balance: $1500
-Final Balance: $1400
-Amount Won/Lost: $-100
+Final Balance: $158
+Amount Won/Lost: $-1342
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $9500
+Amount Won/Lost: $8000
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $1
+Amount Won/Lost: $-1499
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $500
+Amount Won/Lost: $-1000
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $0
+Amount Won/Lost: $-1500
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $400
+Amount Won/Lost: $-1100
 
 Player Name: Austin
 Initial Balance: $1500
@@ -25,16 +50,86 @@ Amount Won/Lost: $-100
 
 Player Name: Austin
 Initial Balance: $1500
-Final Balance: $1398
-Amount Won/Lost: $-102
+Final Balance: $1400
+Amount Won/Lost: $-100
 
 Player Name: Austin
 Initial Balance: $1500
-Final Balance: $1431
-Amount Won/Lost: $-69
+Final Balance: $1400
+Amount Won/Lost: $-100
 
 Player Name: Austin
 Initial Balance: $1500
-Final Balance: $1331
-Amount Won/Lost: $-169
+Final Balance: $500
+Amount Won/Lost: $-1000
+
+Player Name: AUstin
+Initial Balance: $1500
+Final Balance: $1517
+Amount Won/Lost: $17
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $500
+Amount Won/Lost: $-1000
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $12100
+Amount Won/Lost: $10600
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $1000
+Amount Won/Lost: $-500
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $1000
+Amount Won/Lost: $-500
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $750
+Amount Won/Lost: $-750
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $1480
+Amount Won/Lost: $-20
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $0
+Amount Won/Lost: $-1500
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $1000
+Amount Won/Lost: $-500
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $1400
+Amount Won/Lost: $-100
+
+Player Name: Austi
+Initial Balance: $1500
+Final Balance: $0
+Amount Won/Lost: $-1500
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $0
+Amount Won/Lost: $-1500
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $1700
+Amount Won/Lost: $200
+
+Player Name: Austin
+Initial Balance: $1500
+Final Balance: $500
+Amount Won/Lost: $-1000
 

@@ -7,6 +7,7 @@
 #include <limits> // For std::numeric_limits
 #include <tuple>
 #include <fstream>
+#include <regex>
 #include <SDL.h>     
 #include <thread>
 #include <mutex>
@@ -21,4 +22,5 @@ int BettingOptions();
 std::tuple<std::vector<int>, std::string, int> getBettingOptionParameters(int option);
 int randomNumber(int min, int max);
 void Image(int argc, char** argv);
+void EndOfGameExpression(int Balance, std::string name, float PercentChange, int FinalBalance);
 

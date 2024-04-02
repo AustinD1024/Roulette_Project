@@ -10,7 +10,7 @@ set(SDL2_LIBRARIES "${CMAKE_SOURCE_DIR}/lib/SDL2d.lib;${CMAKE_SOURCE_DIR}/lib/SD
 
 include_directories(${myInclude} ${myInclude}/SDL)
 
-add_executable(Roulette ${mySRC}/main.cpp; ${mySRC}/Image.cpp; ${mySRC}/BettingOptions.cpp; ${mySRC}/getBettingOptionParameters.cpp; ${mySRC}/initializePlayerData.cpp; ${mySRC}/randomNumber.cpp; ${mySRC}/writePlayerDataToFile)
+add_executable(Roulette ${mySRC}/main.cpp; ${mySRC}/Image.cpp; ${mySRC}/BettingOptions.cpp; ${mySRC}/getBettingOptionParameters.cpp; ${mySRC}/initializePlayerData.cpp; ${mySRC}/randomNumber.cpp; ${mySRC}/writePlayerDataToFile.cpp; ${mySRC}/EndOfGameExpression.cpp)
 
 target_link_libraries(Roulette ${SDL2_LIBRARIES})
 
