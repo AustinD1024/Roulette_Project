@@ -10,6 +10,7 @@ std::atomic<bool> quit(false); //For Wheel Image
 
 
 
+
 //Template Function
 template <typename T>
 T AmountWon_AndEndExpression(T x, T y)
@@ -37,8 +38,15 @@ int main(int argc, char** argv) {
 	initializePlayerData(playerName, initialBalance);
 
 
-	//Obtain user's first name
+	//Welcome message
 	std::cout << "Welcome to " << projectName << "!" << std::endl;
+	std::string dealer_firstName = "AERSP ";
+	int dealer_last_name = 424;
+	output_DealerName(dealer_firstName); //Function overloading
+	output_DealerName(dealer_last_name); //Function overloading
+
+
+	//Obtain user's first name
 	std::cout << "Please enter your name: ";
 	std::getline(std::cin, playerName);
 
@@ -89,7 +97,7 @@ int main(int argc, char** argv) {
 
 		// Get betting option parameters
 		auto bettingData = getBettingOptionParameters(option);
-		std::vector<int> chosenNumbers = std::get<0>(bettingData);
+		std::vector<int> chosenNumbers = std::get<0>(bettingData); //Container
 		std::string betName = std::get<1>(bettingData);
 		int payoutOdds = std::get<2>(bettingData);
 

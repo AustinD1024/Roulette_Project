@@ -8,6 +8,7 @@
 #include <tuple>
 #include <fstream>
 #include <regex>
+#include <array>
 #include <SDL.h>     
 #include <thread>
 #include <mutex>
@@ -23,4 +24,6 @@ std::tuple<std::vector<int>, std::string, int> getBettingOptionParameters(int op
 int randomNumber(int min, int max);
 void Image(int argc, char** argv);
 void EndOfGameExpression(int Balance, std::string name, float PercentChange, int FinalBalance);
+void output_DealerName(const std::string& name);
+void output_DealerName(int name);
 
