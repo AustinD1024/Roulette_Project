@@ -1,4 +1,0 @@
-﻿  Main.cpp
-C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette_SingleFile_TEMP\Main.cpp(620,22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette_SingleFile_TEMP\Main.cpp(605): warning C4715: 'getBettingOptionParameters': not all control paths return a value
-  Roulette_SingleFile.vcxproj -> C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\Roulette_Project\Roulette_SingleFile_TEMP\x64\Debug\Roulette_SingleFile.exe

@@ -2,13 +2,10 @@
 
 
 std::mutex mtx; // Mutex for synchronization
-
 bool imageDisplayed = false; // Global variable to signal when the image display is finished
 std::string projectName = "Roulette"; // Global variable representing the title of the project
 int initialBalance = 1500; // Global variable for initial balance 
 std::atomic<bool> quit(false); //For Wheel Image
-
-
 
 
 //Template Function
@@ -186,5 +183,10 @@ int main(int argc, char** argv) {
 	imageThread.join();
 
 
+	//Make main thread sleep so user can read end of game stats
+	std::this_thread::sleep_for(std::chrono::seconds(5));
+
+
 	return 0;
+
 }
