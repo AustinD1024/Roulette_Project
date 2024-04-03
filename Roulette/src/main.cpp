@@ -9,6 +9,7 @@ int initialBalance = 1500; // Global variable for initial balance
 std::atomic<bool> quit(false); //For Wheel Image
 
 
+
 //Template Function
 template <typename T>
 T AmountWon_AndEndExpression(T x, T y)
@@ -52,11 +53,12 @@ int main(int argc, char** argv) {
 	unsigned int NumberBets = 0; //Always positive
 
 
-	//Lamda Function to keep track of number of bets
-	auto NumBetsTotal = [](unsigned int CurrentNumBets, unsigned int BetIncrement)
+	// Lambda Function with Operator Overloading to keep track of number of bets
+	auto NumBetsTotal = [](unsigned int CurrentNumBets, unsigned int BetIncrement) -> unsigned int
 		{
 			return CurrentNumBets + BetIncrement;
 		};
+
 
 
 	//While Loop that runs until player is out of money, or quits the game
@@ -125,6 +127,7 @@ int main(int argc, char** argv) {
 
 	}
 
+
 	//Make sure image closes
 	if (quit == false)
 	{
@@ -145,7 +148,7 @@ int main(int argc, char** argv) {
 
 	//Calculate how much percent of initial amount they have
 	double FractionalChange = static_cast<float>(Balance)/static_cast<float>(initialBalance);
-	float PercentageChange = 100*static_cast<float>(FractionalChange);
+	float PercentageChange = (*playerPtr / initialBalance);
 
 
 	std::cout << "\n####################################################################################################\n";
